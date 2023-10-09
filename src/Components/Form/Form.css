@@ -1,0 +1,237 @@
+.left {
+    position: absolute;
+    top: 85px;
+    left: 250px;
+    perspective: 500px;
+}
+.sign-in-container{
+    background-color: #fff;
+    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+    width: 600px;
+    height: 680px;
+	max-width: 100%;
+	min-height: 480px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: rotateY(14deg);
+    transition: all 3s ease;
+} 
+
+.sign-up-container{
+    background-color: #fff;
+    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+    width: 650px;
+    height: 680px;
+	max-width: 100%;
+	min-height: 480px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: rotateY(-14deg);
+    transition: all 3s ease;
+}
+
+.left h1 {
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.left p {
+    font-weight: 400;
+    letter-spacing: .5px;
+    line-height: 10px;
+}
+
+.form-container  input{
+    display: block;
+    padding: 15px 15px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: #eee;
+    width: 300px;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.left h3 {
+    font-weight: 400;
+    letter-spacing: .5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.submit-btn {
+    text-align: center;
+}
+.left .sign-btn {
+    width: 150px;
+    border: 1px solid #FF4B2B;
+	background-color: #FF4B2B;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 5px;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+.left h4 {
+    font-weight: 400;
+    letter-spacing: .5px;
+}
+.left h2 {
+    font-weight: 600;
+    font-size:  larger;
+    text-align: center;
+    cursor: pointer;
+}
+
+@media (max-width:767px) {
+    .left {
+        position: absolute;
+        top: 400px;
+        left: auto;
+        margin-left: 10px;
+        perspective: none;
+    }
+    .sign-in-container{
+        width: 350px;
+        height: 600px;
+        margin-bottom: 20px;
+    }
+    .sign-up-container{
+        width: 350px;
+        height: 600px;
+        margin-bottom: 20px;
+    }
+    .left h3,h4 {
+        font-size: 15px;
+    }
+    .left .sign-btn {
+        width: 110px;
+        padding: 10px 4px;
+        font-size: 13px;
+        font-weight: 500;
+        letter-spacing: .5px;
+    }
+}
+@media (min-width:768px) and (max-width:870px){
+    .left {
+        position: absolute;
+        top: 65px;
+        left: 30px;
+        perspective: none;
+    }
+
+    .sign-in-container{
+        width: 350px;
+        height: 600px;
+    }
+    .sign-up-container{
+        width: 350px;
+        height: 600px;
+    }
+    .left h3,h4 {
+        font-size: 15px;
+    }
+    .left .sign-btn {
+        width: 110px;
+        padding: 10px 4px;
+        font-size: 13px;
+        letter-spacing: 1px;
+        font-weight:500 ;
+    }
+}
+
+@media (min-width:871px) and (max-width:1087px){
+    .left {
+        position: absolute;
+        top: 65px;
+        left: 60px;
+    }
+
+    .sign-in-container{
+        width: 350px;
+        height: 600px;
+    }
+    .sign-up-container{
+        width: 350px;
+        height: 600px;
+    }
+    .left h3,h4 {
+        font-size: 15px;
+    }
+    .left .sign-btn {
+        width: 110px;
+        padding: 10px 4px;
+        font-size: 13px;
+        letter-spacing: 1px;
+        font-weight:600 ;
+    }
+}
+
+@media (min-width:1088px) and (max-width:1280px){
+    .left {
+        position: absolute;
+        top: 65px;
+        left: 60px;
+    }
+    .sign-in-container{
+        width: 450px;
+        height: 600px;
+    }
+    .sign-up-container{
+        width: 450px;
+        height: 600px;
+    }
+    .left h3,h4 {
+        font-size: 15px;
+    }
+    .left .sign-btn {
+        width: 110px;
+        padding: 10px 4px;
+        font-size: 13px;
+        letter-spacing: 1px;
+        font-weight:600 ;
+    }
+}
+
+@media (min-width:1281px) and (max-width:1400px){
+    .left {
+        position: absolute;
+        top: 65px;
+        left: 120px;
+    }
+    .sign-in-container{
+        width: 500px;
+    }
+    .sign-up-container{
+        width: 500px;
+    }
+}
+
+@media (min-width:1401px) and (max-width:1700px){
+    .left {
+        position: absolute;
+        top: 65px;
+        left: 150px;
+    }
+    .sign-in-container{
+        width: 520px;
+    }
+    .sign-up-container{
+        width: 520px;
+    }
+}

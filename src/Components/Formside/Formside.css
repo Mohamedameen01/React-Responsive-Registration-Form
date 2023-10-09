@@ -1,0 +1,232 @@
+.right {
+    position: absolute;
+    top: 85px;
+    right: 250px;
+    perspective: 500px;
+}
+
+#side-up-container{
+    background-color: #EC4399;
+    background-image: url("https://www.transparenttextures.com/patterns/black-felt.png");
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+    width: 600px;
+    height: 680px;
+	max-width: 100%;
+	min-height: 480px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    transform: rotateY(-14deg);
+    transition: all 3s ease;   
+}
+
+#side-in-container{
+    background-color: #EC4399;
+    background-image: url("https://www.transparenttextures.com/patterns/black-felt.png");
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+    width: 600px;
+    height: 680px;
+	max-width: 100%;
+	min-height: 480px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    transform: rotateY(14deg);
+    transition: all 3s ease;   
+}
+
+.right h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.right p {
+    margin-top: 0;
+    font-size: 1.2rem;
+    letter-spacing: .5px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    max-width: 350px;
+    text-align: center;
+}
+
+.right button {
+    width: 180px;
+    border: 1px solid #f6f5f7;
+	background-color: #FF4B2B;
+    border-radius: 20px;
+    padding: 18px 5px;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media (max-width:767px){
+    .right{
+        position: absolute;
+        top: 20px;
+        right: auto;
+        margin-left: 10px;
+        perspective: none;
+    }
+    #side-up-container{
+        width: 350px;
+        height: 350px;
+        min-height: 250px;
+    }
+    #side-in-container{
+        width: 350px;
+        height: 350px;
+        min-height: 250px;
+    }
+    .right h1 {
+        font-size: 2rem;
+    }
+    .right p {
+        font-size: .7rem;
+        max-width: 250px;
+    }
+    .right button {
+        width: 110px;
+        padding: 8px 2px;
+        letter-spacing: .5px;
+        font-weight: 500;
+        font-size: 13px;
+    }
+}
+
+@media (min-width:768px) and (max-width:870px){
+    .right {
+        position: absolute;
+        top: 65px;
+        right: 30px;
+        perspective: none;
+    }
+    #side-up-container{
+        width: 350px;
+        height: 600px;
+        min-height: 250px;
+    }
+    #side-in-container{
+        width: 350px;
+        height: 600px;
+        min-height: 250px;
+    }
+    .right h1 {
+        font-size: 2rem;
+    }
+    .right p {
+        font-size: 1rem;
+        max-width: 300px;
+    }
+    .right button {
+        width: 110px;
+        padding: 8px 4px;
+        letter-spacing: 1px;
+        font-size: 13px;
+        font-weight:500 ;
+    }
+}
+
+@media (min-width:871px) and (max-width:1087px){
+    .right {
+        position: absolute;
+        top: 65px;
+        right: 60px;
+    }
+    #side-up-container{
+        width: 350px;
+        height: 600px;
+    }
+    #side-in-container{
+        width: 350px;
+        height: 600px;
+    }
+    .right h1 {
+        font-size: 2rem;
+    }
+    .right p {
+        font-size: 1rem;
+        max-width: 300px;
+    }
+    .right button {
+        width: 110px;
+        padding: 10px 4px;
+        letter-spacing: 1px;
+        font-size: 13px;
+        font-weight:600 ;
+    }
+}
+
+@media (min-width:1088px) and (max-width:1280px){
+    .right {
+        position: absolute;
+        top: 65px;
+        right: 60px;
+    }
+    #side-up-container{
+        width: 450px;
+        height: 600px;
+        min-height: 250px;
+    }
+    #side-in-container{
+        width: 450px;
+        height: 600px;
+        min-height: 250px;
+    }
+    .right h1 {
+        font-size: 2.5rem;
+    }
+    .right p {
+        font-size: 1rem;
+        max-width: 350px;
+    }
+    .right button {
+        width: 110px;
+        padding: 10px 4px;
+        letter-spacing: 1px;
+        font-size: 13px;
+        font-weight:600 ;
+    }
+}
+
+@media (min-width:1281px) and (max-width:1400px) {
+    .right {
+        position: absolute;
+        top: 65px;
+        right: 120px;
+    }
+    #side-up-container{
+        width: 500px;
+    }
+    #side-in-container{
+        width: 500px;
+    }
+}
+
+@media (min-width:1401px) and (max-width:1700px){
+    .right {
+        position: absolute;
+        top: 65px;
+        right: 150px;
+    }
+    #side-up-container{
+        width: 520px;
+    }
+    #side-in-container{
+        width: 520px;
+    }
+}
